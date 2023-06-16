@@ -11,6 +11,7 @@ import router from './router';
 import 'bootstrap';
 
 const i18n = createI18n({
+  allowComposition: true, // you need to specify that!
   legacy: false, // 啟用新的 Vue3 選項
   locale: 'en', // 設置默認語言
   messages: {
